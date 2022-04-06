@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+body {
+    background-color: rgb(207, 52, 52);
+    direction: rtl;
+}
+
+/* header start */
+.header {
+    background-color: aliceblue;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+header {
+    height: 70px;    
+}
+
+header button {
+    /* float: right; */
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+header button a {
+    text-decoration: none;
+}
+/* header end */
+
+/* nav start */
+.nav {
+    height: 120px;
+    background-color: antiquewhite;
+}
+
+nav a {
+    /* line-height: 180px; */
+    /* float: right; */
+    background-color: coral;
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+nav a:hover {
+    background-color: black;
+    color: rgb(229, 75, 75);
+}
+
+
+/* nav end */
+
+/* aside start */
+    aside {
+        min-height: 200px;
+        background-color: rgb(249, 249, 249);
+    }
+/* aside end */
+
+/*main start */
+main {
+    min-height: 400px;
+    background-color: rgb(220, 218, 218);
+}
+
+/* main end */
+
+/* start footer */
+footer {
+    height: 400px;
+    background-color: gray;
+}
+/* end footer */
+
+
+
